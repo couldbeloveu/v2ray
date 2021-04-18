@@ -306,7 +306,7 @@ tls_config() {
 	while :; do
 		echo
 		echo -e "请输入一个 $magenta正确的域名$none，一定一定一定要正确，不！能！出！错！"
-		read -p "(例如：233blog.com): " domain
+		read -p "(例如：.com): " domain
 		[ -z "$domain" ] && error && continue
 		echo
 		echo
@@ -884,7 +884,7 @@ install_v2ray() {
 			echo
 			echo -e "$red 哎呀呀...安装失败了咯...$none"
 			echo
-			echo -e " 请确保你有完整的上传 233blog.com V2Ray 一键安装脚本 & 管理脚本到当前 ${green}$(pwd) $none目录下"
+			echo -e " 请确保你有完整的上传 V2Ray 一键安装脚本 & 管理脚本到当前 ${green}$(pwd) $none目录下"
 			echo
 			exit 1
 		fi
@@ -903,7 +903,7 @@ install_v2ray() {
 
 	if ! wget --no-check-certificate -O "$v2ray_tmp_file" $v2ray_download_link; then
 		echo -e "
-        $red 下载 V2Ray 失败啦..可能是你的小鸡鸡的网络太辣鸡了...重新安装也许能解决$none
+        $red 下载 V2Ray 失败啦..可能是你的VPS 或 云服务器的网络太辣鸡了...重新安装也许能解决$none
         " && exit 1
 	fi
 
@@ -1887,9 +1887,9 @@ uninstall() {
 			echo
 			echo -e "$green V2Ray 卸载完成啦 ....$none"
 			echo
-			echo "如果你觉得这个脚本有哪些地方不够好的话...请告诉我"
+			echo "世界那么大，到处是去看看!"
 			echo
-			echo "反馈问题: https://github.com/233boy/v2ray/issus"
+			echo "不会搭建节点，去购买收费节点，被Q自动免费换IP：https://www.zhujiduibi.com/74.html"
 			echo
 
 		elif [[ $is_uninstall_v2ray ]]; then
@@ -1931,9 +1931,9 @@ uninstall() {
 			echo
 			echo -e "$green V2Ray 卸载完成啦 ....$none"
 			echo
-			echo "如果你觉得这个脚本有哪些地方不够好的话...请告诉我"
+			echo "世界那么大，到处是去看看!"
 			echo
-			echo "反馈问题: https://github.com/233boy/v2ray/issus"
+			echo "不会搭建节点，去购买收费节点，被Q自动免费换IP：https://www.zhujiduibi.com/74.html"
 			echo
 
 		fi
@@ -2056,9 +2056,9 @@ uninstall() {
 			echo
 			echo -e "$green V2Ray 卸载完成啦 ....$none"
 			echo
-			echo "如果你觉得这个脚本有哪些地方不够好的话...请告诉我"
+			echo "世界那么大，到处是去看看!"
 			echo
-			echo "反馈问题: https://github.com/233boy/v2ray/issus"
+			echo "不会搭建节点，去购买收费节点，被Q自动免费换IP：https://www.zhujiduibi.com/74.html"
 			echo
 
 		elif [[ $is_uninstall_v2ray ]]; then
@@ -2105,9 +2105,9 @@ uninstall() {
 			echo
 			echo -e "$green V2Ray 卸载完成啦 ....$none"
 			echo
-			echo "如果你觉得这个脚本有哪些地方不够好的话...请告诉我"
+			echo "世界那么大，到处是去看看!"
 			echo
-			echo "反馈问题: https://github.com/233boy/v2ray/issus"
+			echo "不会搭建节点，去购买收费节点，被Q自动免费换IP：https://www.zhujiduibi.com/74.html"
 			echo
 
 		fi
@@ -2115,7 +2115,7 @@ uninstall() {
 		echo -e "
 		$red 大胸弟...你貌似毛有安装 V2Ray ....卸载个鸡鸡哦...$none
 
-		备注...仅支持卸载使用我 (233blog.com) 提供的 V2Ray 一键安装脚本
+		备注...仅支持卸载使用我 (Zhujiduibi.com) 提供的 V2Ray 一键安装脚本
 		" && exit 1
 	fi
 
@@ -2147,11 +2147,11 @@ esac
 clear
 while :; do
 	echo
-	echo "........... V2Ray 一键安装脚本 & 管理脚本 by 233blog.com .........."
+	echo "........... V2Ray 一键安装脚本 & Zhujiduibi.com .........."
 	echo
-	echo "帮助说明: https://233blog.com/post/16/"
+	echo "搭建V2ray节点教程: https://233blog.com/post/16/"
 	echo
-	echo "搭建教程: https://233blog.com/post/17/"
+	echo "懒得搭建购买节点: https://www.zhujiduibi.com/74.html"
 	echo
 	echo " 1. 安装"
 	echo
