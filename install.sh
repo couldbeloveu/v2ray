@@ -1522,10 +1522,10 @@ show_config_info() {
 	echo
 	echo -e " $yellow输入 ${cyan}v2ray${none} $yellow即可管理 V2Ray${none}"
 	echo
-	echo -e " ${yellow}V2Ray 客户端使用教程: https://233blog.com/post/20/$none"
+	echo -e " ${yellow}V2Ray 客户端使用教程: https://www.zhujiduibi.com"
 	echo
 	if [[ $v2ray_transport_opt == "4" && ! $caddy ]]; then
-		echo -e " $red警告！$none$yellow请自行配置 TLS...教程: https://233blog.com/post/19/$none"
+		echo -e " $red警告！$none$yellow请自行配置 TLS...教程: https://www.zhujiduibi.com/74.html"
 		echo
 	fi
 	echo "---------- V2Ray 配置信息 -------------"
@@ -2149,9 +2149,9 @@ while :; do
 	echo
 	echo "........... V2Ray 一键安装脚本 & Zhujiduibi.com .........."
 	echo
-	echo "搭建V2ray节点教程: https://233blog.com/post/16/"
+	echo "搭建V2ray节点教程: https://www.zhujiduibi.com"
 	echo
-	echo "懒得搭建购买节点: https://www.zhujiduibi.com/74.html"
+	echo "懒得搭建,购买节点: https://www.zhujiduibi.com/74.html"
 	echo
 	echo " 1. 安装"
 	echo
@@ -2161,7 +2161,7 @@ while :; do
 		echo -e "$yellow 温馨提示.. 本地安装已启用 ..$none"
 		echo
 	fi
-	read -p "$(echo -e "请选择 [${magenta}1-2$none]:")" choose
+	read -p "$(echo -e "请输入数字： [${magenta}1-2$none]:")" choose
 	case $choose in
 	1)
 		install
